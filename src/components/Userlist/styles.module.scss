@@ -1,10 +1,20 @@
-.user-list {
-    background: aqua;
-    border-color: black;
-    padding: 15px;
-    border: 2px solid black;
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    max-width: 30%;
+.section {
+    background: rgb(127, 92, 255);
+    width: 100%;
+    min-height: 100%;
+    .item-container {
+        padding: 10px 20px;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        &:hover {
+            background-color: white;
+        }
+        .title {
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        .subtitle {
+            font-size: 12px;
+        }
+    }
 }
