@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 
 export default function UserProfile(props) {
   const { data1 } = props;
-  console.log(data1);
+
   return (
     <div className={styles.section}>
       User Profile
